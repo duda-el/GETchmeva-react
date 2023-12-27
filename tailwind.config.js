@@ -15,7 +15,7 @@ module.exports = {
       },
       fontSize: {
         '1.5xl': '1.05rem',
-        '3xl': '1.875rem', 
+        '2.5xl': '1.1rem', 
       },
     },
   },
