@@ -27,7 +27,7 @@ const Navbar = () => {
               srcset=""
               className="w-10 inline-block items-center"
             />{" "}
-            <div className="lg:hidden md:hidden items-center font-semibold text-center text-2xl">
+            <div className="lg:hidden md:hidden items-center text-center text-2xl text-primary">
               GETchmeva
             </div>
           </a>
@@ -58,7 +58,7 @@ const Navbar = () => {
       </nav>
 
       <div
-        className={`leftNav space-y-4 px-4 pt-36 pb-10 md:hidden ${
+        className={`leftNav bg-primary space-y-4 px-4 pt-36 pb-10 md:hidden ${
           isMenuOpen ? "active" : ""
         }`}
       >
@@ -67,14 +67,15 @@ const Navbar = () => {
         >
           {navItems.map((item) => (
             <li key={item.path} className="mb-4">
-              <a href={item.path} className="nav-link2 text-1xl block transition-all">
+              <a href={item.path} className=" text-1xl block transition-all">
                 {item.link}
               </a>
             </li>
           ))}
-          <li className="flex items-center">
-            <a className="geoFlag ">
-            </a>
+          <div className="w-100% h-0.5 bg-white"></div>
+          <li className="flex items-center cursor-pointer">
+            <img src={geo} alt="" className="w-7 mr-2" />
+            <span>Georgia</span>
           </li>
         </ul>
       </div>
