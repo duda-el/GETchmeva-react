@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="px-8 py-3 items-center border-b border-gray-200 max-w-screen-2xl mx-auto bg-white fixed top-0 right-0 left-0">
+      <nav className="px-8 py-3 items-center border-b border-gray-200 max-w-screen-2xl mx-auto bg-white sticky top-0 right-0 left-0">
         <div className="flex mx-auto items-center justify-between">
           <a href="/" className="flex items-center text-2xl space-x-3">
             <img
@@ -27,7 +27,7 @@ const Navbar = () => {
               srcset=""
               className="w-10 inline-block items-center"
             />{" "}
-            <div className="lg:hidden md:hidden items-center text-center text-2xl text-primary">
+            <div className="lg:hidden md:hidden items-center text-center text-2xl text-primary font-semibold">
               GETchmeva
             </div>
           </a>
