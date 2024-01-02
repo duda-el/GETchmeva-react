@@ -8,7 +8,7 @@ export default function Home(){
     <div className="main">
       <div className="hero">
         <div className="md:px-20">
-          <h1 className="custom-heading " ><span className="text-primary">GETchmeva</span> your personal <br  /> grocery assistant</h1>
+          <h1 className="custom-heading " ><span className="text-primary">GETchmeva </span>your personal<br  /> grocery assistant</h1>
           <p className="mt-5 text-1.5xl">Available soon on these platforms!</p>
           <div className="download">
             <img src={appstore} alt="" className="md:w-44 md:h-auto sm:w-40 sm:h-auto" />
@@ -20,4 +20,3 @@ export default function Home(){
     </div>
   );
 }
-
