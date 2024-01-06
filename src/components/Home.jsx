@@ -15,7 +15,7 @@ export default function Home(){
             <img src={android} alt="" className="md:w-44 md:h-auto sm:w-40 sm:h-auto" />
           </div>
         </div>
-        <img src={iphone} alt="" className="levitating-img w-72 h-auto mt-4 mr-32" />
+        <img src={iphone} alt="" className="levitating-img" />
       </div>
     </div>
   );
