@@ -119,10 +119,8 @@ nav {
 .custom-heading {
   color: #363636;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 1.5;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 @keyframes levitateRotate {
@@ -139,25 +137,37 @@ nav {
 
 .levitating-img {
   animation: levitateRotate 3s ease-in-out infinite;
-  width: 18rem;
+  width: 21rem;
   height: auto;
-  margin-top: 15px;
   margin-right: 150px;
 }
 
 .hero{
   width: 100%;
-  height: 100vh;
+  height: 89.6vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: red;
 }
 
 .download{
   display: flex;
   margin-top: 30px;
   gap: 20px;
+}
+
+@media screen and (max-height: 800px){
+  .levitating-img {
+    width: 17rem;
+    height: auto;
+  }
+  .custom-heading{
+    font-size: 3.5rem;
+  }
+  .hero{
+    width: 100%;
+    height: 86.9vh;
+  }
 }
 
 @media screen and (max-width: 1100px){
