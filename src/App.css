@@ -189,7 +189,7 @@ nav {
     width: 16rem;
     margin-right: 0;
     margin-top: 30px;
-    filter: drop-shadow(0px 10px 1px #222);
+    filter: drop-shadow(0px 0px 0px);
   }
   @keyframes levitateRotate {
     0% {
