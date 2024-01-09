@@ -6,7 +6,7 @@ const HowItWorks = () => {
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="max-w-2xl mx-auto text-center">
                     <h2 className=" text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">How does it work?</h2>
-                    <p className="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+                    <p className="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">Scan, discover, and make informed choices about your food instantly with GETchmeva.</p>
                 </div>
 
                 <div className="relative mt-12 lg:mt-20">
@@ -20,7 +20,7 @@ const HowItWorks = () => {
                                 <span className="text-xl font-semibold text-gray-700"> 1 </span>
                             </div>
                             <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Create a free account</h3>
-                            <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <p className="mt-4 text-base text-gray-600"> Join the GETchmeva community for free and access a world of comprehensive food insights at your fingertips.</p>
                         </div>
 
                         <div className="col-span-1">
@@ -28,7 +28,7 @@ const HowItWorks = () => {
                                 <span className="text-xl font-semibold text-gray-700"> 2 </span>
                             </div>
                             <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Scan the product</h3>
-                            <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <p className="mt-4 text-base text-gray-600">Empower your choices — SCAN your products for instant insights and more with GETchmeva.</p>
                         </div>
 
                         <div className="col-span-1">
@@ -36,7 +36,7 @@ const HowItWorks = () => {
                                 <span className="text-xl font-semibold text-gray-700"> 3 </span>
                             </div>
                             <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">Enjoy your meal</h3>
-                            <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <p className="mt-4 text-base text-gray-600">Bon appétit! Enjoy your meal with the added delight of GETchmeva, enhancing your dining experience with informed choices.</p>
                         </div>
                     </div>
                 </div>
