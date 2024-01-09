@@ -159,9 +159,10 @@ nav {
 
 .how{
   width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
+  padding-top: 115px;
+  padding-bottom: 115px;
 }
 
 @media screen and (max-height: 950px){
@@ -172,16 +173,13 @@ nav {
   .custom-heading{
     font-size: 4rem;
   }
-  .hero{
-    width: 100%;
-    height: 86.9vh;
-  }
 }
 
 @media screen and (max-width: 1100px){
   .hero{
     flex-direction: column;
     text-align: center;
+    height: auto;
   }
   .custom-heading{
     font-size: 3.5rem;
@@ -197,6 +195,9 @@ nav {
     margin-right: 0;
     margin-top: 30px;
     filter: drop-shadow(10px 10px 1px #222);
+  }
+  .how{
+    margin-top: 250px;
   }
   @keyframes levitateRotate {
     0% {
@@ -217,5 +218,14 @@ nav {
     margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .how{
+    margin-top: 180px;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .how{
+    margin-top: 400px;
   }
 }

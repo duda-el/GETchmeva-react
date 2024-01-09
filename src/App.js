@@ -1,17 +1,20 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home"
+import Home from "./components/Home";
 import HowItWorks from "./components/HowItWorks";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <div className="flex flex-col">
+        <Navbar />
+      <div>
         <Home />
-        <HowItWorks/>
+      </div>
+      <div className="z--1">
+        <HowItWorks />
       </div>
     </div>
+
   );
 }
 
